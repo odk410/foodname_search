@@ -1,5 +1,5 @@
 
-package com.example.odk41.foodname_search.pojo;
+package com.example.odk41.foodname_search.productList;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

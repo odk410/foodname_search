@@ -9,17 +9,17 @@
     tools:context="com.example.odk41.foodname_search.MainActivity">
 
     <Button
+        android:id="@+id/barcode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="scanBarcode"
-        android:text="@string/scan_barcode"
+        android:text="@string/barcode"
         tools:layout_editor_absoluteX="299dp"
         tools:layout_editor_absoluteY="0dp" />
 
-    <TextView
-        android:id="@+id/foodInfo"
+    <Button
+        android:id="@+id/signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/signup" />
 
 </LinearLayout>
