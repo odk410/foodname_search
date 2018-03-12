@@ -23,6 +23,9 @@
         </activity>
         <activity android:name=".BarCodeActivity" />
         <activity android:name=".UserInfoActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".AllergieSelectActivity"></activity>
     </application>
 
 </manifest>

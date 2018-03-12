@@ -239,6 +239,15 @@ public class BarCodeActivity extends AppCompatActivity {
 
         List<String> materialList = Arrays.asList(material);
 
+
+        for (int i=0; i < materialList.size(); i++){
+            String str = materialList.get(i).trim();
+            String trimString =str.replaceAll("(^\\p{Z}+|\\p{Z}+$)", "");
+            materialList.set(i, trimString);
+            Log.e(this.getClass().getName(), "[" + materialList.get(i) + "]");
+        }
+
+
         // 원재료가 존재한다면
         if(!materialList.isEmpty()){
 
@@ -255,31 +264,16 @@ public class BarCodeActivity extends AppCompatActivity {
             chickenImage.setVisibility(View.GONE);
 
 
-//            LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(400, 400);
-//            imageView.setVisibility(View.GONE);
-
             if(materialList.contains("닭고기")){
                 // 이미지뷰 생성
-//                ImageView imageView = new ImageView(this);
-//                imageView.setImageResource(R.drawable.chicken);
-//                imageView.setLayoutParams(layoutParams);
-//                materialView.addView(imageView);
                 chickenImage.setVisibility(View.VISIBLE);
             }
             if(materialList.contains("돼지고기")){
                 // 이미지뷰 생성
-//                ImageView imageView = new ImageView(this);
-//                imageView.setImageResource(R.drawable.pig);
-//                imageView.setLayoutParams(layoutParams);
-//                materialView.addView(imageView);
                 pigImage.setVisibility(View.VISIBLE);
             }
             if(materialList.contains("쇠고기")){
                 // 이미지뷰 생성
-//                ImageView imageView = new ImageView(this);
-//                imageView.setImageResource(R.drawable.cow);
-//                imageView.setLayoutParams(layoutParams);
-//                materialView.addView(imageView);
                 cowImage.setVisibility(View.VISIBLE);
             }
         }

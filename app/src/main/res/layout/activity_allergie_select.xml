@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.odk41.foodname_search.AllergieSelectActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="가입"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="TextView"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="36dp"
+        tools:text="알레르기 선택" />
+
+    <ScrollView
+        android:layout_width="344dp"
+        android:layout_height="251dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="178dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBox30"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:text="대두"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="155dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="땅콩"
+                tools:layout_editor_absoluteX="231dp"
+                tools:layout_editor_absoluteY="154dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="마시멜로"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="194dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="메밀"
+                tools:layout_editor_absoluteX="231dp"
+                tools:layout_editor_absoluteY="194dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="밀"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="234dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="복숭아"
+                tools:layout_editor_absoluteX="231dp"
+                tools:layout_editor_absoluteY="234dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아몬드"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="274dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="토마토"
+                tools:layout_editor_absoluteX="231dp"
+                tools:layout_editor_absoluteY="274dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="호두"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="314dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="닭고기"
+                tools:layout_editor_absoluteX="231dp"
+                tools:layout_editor_absoluteY="314dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="돼지고기"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="354dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="우유"
+                tools:layout_editor_absoluteX="231dp"
+                tools:layout_editor_absoluteY="354dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="게"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="394dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="고등어"
+                tools:layout_editor_absoluteX="231dp"
+                tools:layout_editor_absoluteY="394dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="굴" />
+
+            <CheckBox
+                android:id="@+id/checkBox45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="대합" />
+
+            <CheckBox
+                android:id="@+id/checkBox46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="바지락" />
+
+            <CheckBox
+                android:id="@+id/checkBox47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="새우" />
+
+            <CheckBox
+                android:id="@+id/checkBox48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오징어" />
+
+            <CheckBox
+                android:id="@+id/checkBox49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="전복" />
+
+            <CheckBox
+                android:id="@+id/checkBox50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="홍합" />
+
+            <CheckBox
+                android:id="@+id/checkBox51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="카레" />
+
+            <CheckBox
+                android:id="@+id/checkBox52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="견과류" />
+
+            <CheckBox
+                android:id="@+id/checkBox53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="쇠고기" />
+
+            <CheckBox
+                android:id="@+id/checkBox54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아황산류" />
+
+            <CheckBox
+                android:id="@+id/checkBox55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="조개류" />
+
+            <CheckBox
+                android:id="@+id/checkBox56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="난류" />
+
+            <CheckBox
+                android:id="@+id/checkBox57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="이산화황" />
+
+            <CheckBox
+                android:id="@+id/checkBox58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아황산염" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
